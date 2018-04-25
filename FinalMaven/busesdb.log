@@ -1,0 +1,2 @@
+/*C3*/SET SCHEMA PUBLIC
+CREATE TABLE if not exists Bus ( id integer identity primary key, driverName varchar(40),colour varchar(30), maxPassengers int,maxFuel int)
